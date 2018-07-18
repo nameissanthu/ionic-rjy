@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar color="blue">
+    <ion-title>
+       Favourites
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="back">
+   
+  <ion-card *ngFor="let rjy of getDatafromDatabase">
+    <img src="{{rjy.img}}"/>
+    <ion-card-content>
+      <ion-card-title color="blue">
+          {{rjy.title}}
+        </ion-card-title>
+      <p>
+          {{rjy.desc}}
+      </p>
+    </ion-card-content>
+  </ion-card>
+ 
+</ion-content>

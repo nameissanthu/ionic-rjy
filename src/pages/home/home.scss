@@ -1,0 +1,27 @@
+page-home {
+    
+    .back{
+        background-image: linear-gradient(to right, #f03caa, #ff4082, #ff595b, #ff7836, #eb9612);
+    }
+    h2 p{
+        color: #fff !important;
+    }
+    .card-title {
+        position: absolute;
+        top: 45%;
+        font-size: 25px;
+        width: 100%;
+        font-weight: bold;
+        color: #fff;
+      }
+      .card-subtitle {
+        font-size: 1.0em;
+        position: absolute;
+        top: 55%;
+        width: 100%;
+        color: #fff;
+      }
+      ion-slides {
+        height: auto;
+      }
+}
